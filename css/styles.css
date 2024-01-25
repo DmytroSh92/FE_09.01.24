@@ -1,0 +1,43 @@
+h4 {
+    color: maroon;
+}
+
+#example_id {
+    color: chartreuse;
+}
+
+.example_class {
+    color: bisque;
+}
+
+.example_class_1.example_class_2 {
+    color: blanchedalmond;
+}
+
+li .example_embeddedness{
+    color: azure;
+}
+
+.example_parent > .example_child {
+    color: blue;
+}
+
+.example_A + .example_B {
+    color: red;
+}
+
+[element] {
+    color: green;
+}
+
+.example_common ~ p {
+    color: blueviolet;
+}
+
+[href="#"] {
+    color: darkturquoise;
+}
+
+[title^="title"] {
+    color: deeppink;
+}
