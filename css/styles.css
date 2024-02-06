@@ -1,0 +1,42 @@
+.first-block {
+    width: 1000px;
+    height: 200px;
+}
+
+.first-block > .first-block__item-one {
+    height: 200px;
+    width: 200px;
+    float: left;
+    text-align: left;
+    background-color: red;
+}
+
+.first-block > .first-block__item-two {
+    height: 200px;
+    width: 200px;
+    float: right;
+    text-align: right;
+    background-color: red;
+}
+
+.second-block > .first-block__item-one {
+    height: 200px;
+    width: 200px;
+    float: left;
+    text-align: left;
+    background-color: red;
+}
+
+.second-block > .first-block__item-two,
+.first-block__item-three,
+.first-block__item-four,
+.first-block__item-five{
+    height: 100px;
+    width: 100px;
+    float: right;
+    text-align: left;
+    background-color: red;
+    margin-right: 10px;
+}
+
+.three-block >
