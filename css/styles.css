@@ -1,42 +1,96 @@
-.first-block {
-    width: 1000px;
-    height: 200px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.first-block > .first-block__item-one {
-    height: 200px;
+h1, h2{
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.float-item__big-item {
+    font-size: 64px;
+    line-height: 75px;
+    padding-top: 65px;
+}
+
+.float-item-wrapper h2 {
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 32px;
+}
+
+.container {
+    max-width: 1100px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C4C4C4;
+}
+
+.float-box {
+    text-align: center;
+}
+
+.float-row-1,
+.float-row-2 {
+    background-color: #E6E6E6;
+    margin-bottom: 50px;
+}
+
+.float-row-3 {
+    background-color: #E6E6E6;
+}
+
+.float-item {
     width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+}
+
+.float-row-1 .float-item-1,
+.float-row-2 .float-item-1,
+.float-row-3 .float-item-2 {
     float: left;
-    text-align: left;
-    background-color: red;
 }
-
-.first-block > .first-block__item-two {
-    height: 200px;
-    width: 200px;
+.float-row-1 .float-item-2,
+.float-item-wrapper,
+.float-row-3 .float-item-4{
     float: right;
-    text-align: right;
-    background-color: red;
 }
 
-.second-block > .first-block__item-one {
-    height: 200px;
-    width: 200px;
+.float-row-2 .float-item-2 {
     float: left;
-    text-align: left;
-    background-color: red;
-}
-
-.second-block > .first-block__item-two,
-.first-block__item-three,
-.first-block__item-four,
-.first-block__item-five{
     height: 100px;
     width: 100px;
-    float: right;
-    text-align: left;
-    background-color: red;
-    margin-right: 10px;
+}
+.float-row-2 .float-item-3,
+.float-row-2 .float-item-4,
+.float-row-2 .float-item-5 {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-left: 15px;
 }
 
-.three-block >
+.float-row-3 > .float-item-1 {
+    float: left;
+    margin-right: 15px;
+}
+
+.float-row-3 .float-item-3 {
+    float: right;
+    margin-right: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
