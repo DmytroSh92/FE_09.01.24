@@ -20,7 +20,7 @@ h2{
     padding-top: 65px;
 }
 
-.float-item-wrapper h2 {
+.float-item__small-item {
     font-size: 36px;
     line-height: 42px;
     padding-top: 32px;
@@ -56,12 +56,16 @@ h2{
 
 .float-row-1 .float-item-1,
 .float-row-2 .float-item-1,
-.float-row-3 .float-item-2 {
+.float-row-3 .float-item-2,
+.float-row-3 .float-item-3,
+.float-row-3 .float-item-4 {
     float: left;
 }
-.float-row-1 .float-item-2,
-.float-item-wrapper,
-.float-row-3 .float-item-4{
+.float-row-1 .float-item-2 {
+    float: right;
+}
+
+.float-item-wrapper {
     float: right;
 }
 
@@ -85,7 +89,6 @@ h2{
 }
 
 .float-row-3 .float-item-3 {
-    float: right;
     margin-right: 15px;
 }
 
