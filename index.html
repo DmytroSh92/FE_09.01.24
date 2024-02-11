@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Git</title>
 </head>
-<body class="container">
-<header>
-    <div class="header__box">
+<body>
+<header class="header-box">
+    <div class="container">
         <nav class="nav">
             <ul class="nav__list">
                 <li>
@@ -31,74 +32,103 @@
     </div>
 </header>
 <main>
-    <section>
-        <div>
-            <h1>
-                Design and layout
-            </h1>
-            <p>Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum has been the standard "fish" for
-                Latin texts since the early 16th century.</p>
-            <button>WRITE ME</button>
+    <section class="first-section">
+        <div class="container">
+            <div class="first-section__box">
+                <h1>
+                    Design and layout
+                </h1>
+                <p>Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum has been the standard fish
+                    for
+                    Latin texts since the early 16th century.</p>
+                <button type="button">WRITE ME</button>
+            </div>
         </div>
     </section>
-    <section>
-        <div>
-            <h2>
-                About me
-            </h2>
-            <p>About meLorem Ipsum is fish text often used in print and web design. Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
-        </div>
-        <div>
-            <div>
-                <img src="images/project.png" alt="icon">
-                <h3>40+</h3>
-                <p>projects</p>
-            </div>
-            <div>
-                <img src="images/project.png" alt="icon">
-                <h3>40+</h3>
-                <p>projects</p>
-            </div>
-            <div>
-                <img src="images/project.png" alt="icon">
-                <h3>40+</h3>
-                <p>projects</p>
-            </div>
-            <div>
-                <img src="images/project.png" alt="icon">
-                <h3>40+</h3>
-                <p>projects</p>
-            </div>
-            <div>
-                <img src="images/project.png" alt="icon">
-                <h3>40+</h3>
-                <p>projects</p>
-            </div>
-            <div>
-                <img src="images/project.png" alt="icon">
-                <h3>40+</h3>
-                <p>projects</p>
-            </div>
-        </div>
 
+    <section class="second-section">
+        <div class="container">
+            <div class="second-section__box">
+                <h2>
+                    About me
+                </h2>
+                <p>About meLorem Ipsum is fish text often used in print and web design.</p>
+                <p>Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
+            </div>
+        </div>
     </section>
-    <section>
-        <div>
-            <h2>
-                How do I work
-            </h2>
-            <p>Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum has been the standard "fish" for Latin texts since the early 16th century.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=89dGC8de0CA&list=RD8JMMjCyyznI&index=2&ab_channel=AerosmithVEVO" allowfullscreen></iframe>
+
+    <section class="third-section">
+        <div class="container third-section__container">
+            <div class="third-section__block">
+                <img src="images/project.png" alt="icon" width="150" height="50">
+                <div class="third-section__block-info">
+                    <h3>40+</h3>
+                    <p>projects</p>
+                </div>
+            </div>
+            <div class="third-section__block">
+                <img src="images/project.png" alt="icon">
+                <div class="third-section__block-info">
+                    <h3>40+</h3>
+                    <p>projects</p>
+                </div>
+            </div>
+            <div class="third-section__block">
+                <img src="images/project.png" alt="icon">
+                <div class="third-section__block-info">
+                    <h3>40+</h3>
+                    <p>projects</p>
+                </div>
+            </div>
+            <div class="third-section__block">
+                <img src="images/project.png" alt="icon">
+                <div class="third-section__block-info">
+                    <h3>40+</h3>
+                    <p>projects</p>
+                </div>
+            </div>
+            <div class="third-section__block">
+                <img src="images/project.png" alt="icon">
+                <div class="third-section__block-info">
+                    <h3>40+</h3>
+                    <p>projects</p>
+                </div>
+            </div>
+            <div class="third-section__block">
+                <img src="images/project.png" alt="icon">
+                <div class="third-section__block-info">
+                    <h3>40+</h3>
+                    <p>projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fourth-section">
+        <div class="container">
+            <div class="fourth-section__box">
+                <div class="fourth-section__box-info">
+                    <h2>
+                        How do I work
+                    </h2>
+                    <p>Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum has been the standard
+                        "fish" for
+                        Latin texts since the early 16th century.</p>
+                </div>
+                <iframe width="1110" height="600" src="https://www.youtube.com/embed/3b27Ujkb9BQ?si=RNfm7vfSNjXP9L_t"
+                        allowfullscreen></iframe>
+            </div>
         </div>
     </section>
 </main>
-<footer>
-<div>
-    <h2>
-        John Smith
-    </h2>
-    <p>(c) 2018. All rights reserved.</p>
-</div>
+<footer class="footer-box">
+    <div class="container">
+        <h2>
+            John Smith
+        </h2>
+        <p>(c) 2018. All rights reserved.</p>
+    </div>
 </footer>
 <script src="./js/main.js"></script>
 </body>
