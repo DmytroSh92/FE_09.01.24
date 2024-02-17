@@ -3,48 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Search</title>
 </head>
 <body>
 <header>
-    <nav>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-    </nav>
+
 </header>
 <main>
     <section>
         <div>
+            <h1>Search page</h1>
             <form action="https://fom.in.ua/echo" method="get">
-                <label for="bodyType">Body Type:</label>
-                <input type="text" id="bodyType" name="bodyType">
+                <div>
+                    <label for="bodyType">Тип кузова:</label>
+                    <input type="text" id="bodyType" name="bodyType">
+                </div>
 
-                <label for="carBrand">Car Brand:</label>
-                <input type="text" id="carBrand" name="carBrand">
+                <div>
+                    <label for="carBrand">Марка автомобіля:</label>
+                    <input type="text" id="carBrand" name="carBrand">
+                </div>
 
-                <label for="manufacturerCountry">Manufacturer Country:</label>
-                <input type="text" id="manufacturerCountry" name="manufacturerCountry">
+                <div>
+                    <label for="manufacturerCountry">Країна виробник:</label>
+                    <input type="text" id="manufacturerCountry" name="manufacturerCountry">
+                </div>
 
-                <label for="priceFrom">Price From:</label>
-                <input type="number" id="priceFrom" name="priceFrom">
+                <div>
+                    <label for="priceFrom">Ціна від:</label>
+                    <input type="number" id="priceFrom" name="priceFrom">
+                    <label for="priceTo">Ціна до:</label>
+                    <input type="number" id="priceTo" name="priceTo">
+                </div>
 
-                <label for="priceTo">Price To:</label>
-                <input type="number" id="priceTo" name="priceTo">
 
-                <label for="manufacturingYearFrom">Manufacturing Year From:</label>
-                <input type="number" id="manufacturingYearFrom" name="manufacturingYearFrom">
+                <div>
+                    <label for="manufacturingYearFrom">Рік виробництва від:</label>
+                    <input type="date" id="manufacturingYearFrom" name="manufacturingYearFrom">
+                    <label for="manufacturingYearTo">Рік виробництва до:</label>
+                    <input type="date" id="manufacturingYearTo" name="manufacturingYearTo">
+                </div>
 
-                <label for="manufacturingYearTo">Manufacturing Year To:</label>
-                <input type="number" id="manufacturingYearTo" name="manufacturingYearTo">
+                <div>
+                    <label for="condition">Стан:</label>
+                    <select id="condition" name="condition" multiple>
+                        <option value="damaged">Бита</option>
+                        <option value="onCredit">У кредиті</option>
+                        <option value="notCustomsCleared">Нерозмитнена</option>
+                    </select>
+                </div>
 
-                <label for="condition">Condition:</label>
-                <select id="condition" name="condition" multiple>
-                    <option value="damaged">Damaged</option>
-                    <option value="onCredit">On Credit</option>
-                    <option value="notCustomsCleared">Not Customs Cleared</option>
-                </select>
-                <input type="submit" value="Search">
+                <div>
+                    <label for="fuelType">Тип палива</label>
+                    <select id="fuelType" name="fuelType" multiple>
+                        <option value="Gas">Газ</option>
+                        <option value="Gasoline">Бензин</option>
+                        <option value="Diesel">Дизель</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="typeGearbox">Тип коробки передач</label>
+                    <select id="typeGearbox" name="typeGearbox">
+                        <option value="mechanical">Механічна</option>
+                        <option value="automaton">Автомат</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="carColor">Колір авто</label>
+                    <input type="color" id="carColor" name="carColor"><br>
+                </div>
+
+                <div>
+                    <label for="comfort">Комфорт</label>
+                    <select id="comfort" name="comfort" multiple>
+                        <option value="Sunroof">Люк</option>
+                        <option value="Leather interior">Шкіряний салон</option>
+                    </select>
+
+                </div>
+                <input type="submit" value="Пошук">
             </form>
         </div>
     </section>
