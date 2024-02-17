@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    max-width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border: 2px solid black;
+    width: 100%;
+    background-color: yellow;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 5px 10px;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
