@@ -32,7 +32,7 @@ body {
     background-color: #444;
 }
 
-.menu ul ul ul {
+.menu ul ul ul{
     left: 100%;
     top: 0;
 }
@@ -48,23 +48,10 @@ body {
     position: relative;
 }
 
-.menu ul ul a {
-    padding: 10px 15px;
-    color: #fff;
-}
-
-.menu ul ul ul a {
-    padding-left: 30px;
-}
-
-.menu a:hover {
+.menu ul ul li:hover > a {
     background-color: #555;
 }
 
-.menu ul ul a:hover {
-    background-color: #666;
-}
-
-.menu ul ul ul a:hover {
-    background-color: #777;
+.menu ul li:hover > a {
+    background-color: #555;
 }
