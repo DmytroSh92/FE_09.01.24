@@ -261,9 +261,12 @@ img {
 }
 
 .underline {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.underline:hover,
+.eight-block__content__learn-more:hover {
+    color: #004080
 }
 
 .fifth-block{
@@ -570,6 +573,11 @@ img {
     font-size: 15px;
     line-height: 15px;
     margin-bottom: 15px;
+}
+
+.thirteenth-block li a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .thirteenth-block__info img {
