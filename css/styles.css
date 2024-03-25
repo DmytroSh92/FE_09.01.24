@@ -1211,6 +1211,7 @@ button.button-menu {
     color: black !important;
     border: 0;
 }
+
 button.button-menu img {
     width: 40px;
 }
@@ -1221,7 +1222,18 @@ button.button-menu img {
     top: 20px;
 }
 
+.close-menu img {
+    filter: invert(100%) sepia(100%) hue-rotate(180deg) saturate(1000%);
+}
+
 @media screen and (max-width: 992px) {
+
+    .container {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .mobile-wrapper {
         flex-direction: column;
         position: fixed;
@@ -1247,8 +1259,8 @@ button.button-menu img {
     }
 
     .nav__list-item {
-       font-weight: 600;
-       font-size: clamp(32px, 3.4vw, 65px);
+        font-size: 1.5rem;
+        color: #FFFFFF;
     }
 
     .nav__button {
@@ -1258,11 +1270,182 @@ button.button-menu img {
 
     .nav__button-login,
     .nav__button-free {
-        font-size: clamp(32px, 3.4vw, 65px);
+        font-size: 1.2rem;
     }
 
     .nav__button-login {
-        background: #FF9C7D;
+        background: #FFFFFF;
+    }
+
+    .nav__button {
+        padding-top: 40px;
+    }
+
+    .first-block__description {
+        margin-left: 0;
+    }
+
+    .first-block__description-title {
+        margin-top: 0;
+        line-height: 40px;
+    }
+
+    .first-block,
+    .fourth-block,
+    .fifth-block,
+    .sixth-block {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .second-block_title {
+        line-height: 35px;
+        font-size: 1.8rem;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .second-block__logo {
+        padding: 0 0 0 0;
+    }
+
+    .second-block {
+        padding-bottom: 40px;
+    }
+
+    .third-block,
+    .thirteenth-block {
+        align-items: center;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .third-block__left-block__title {
+        max-width: 100%;
+    }
+
+    .third-block__left-block__text,
+    .fourth-block__right-block__text,
+    .fifth-block__left-block__text,
+    .sixth-block__right-block__text {
+        margin-top: 40px;
+    }
+
+    .third-block__right-block,
+    .fourth-block__left-block,
+    .fifth-block__right-block,
+    .sixth-block__left-block {
+        margin-right: 0;
+        padding-top: 40px;
+    }
+
+    .fourth-block,
+    .sixth-block,
+    .fifth-block {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .fifth-block,
+    .fourth-block {
+        padding-bottom: 40px;
+    }
+
+    .seventh-block__title {
+        padding-top: 40px;
+    }
+
+    .seventh-block {
+        padding-bottom: 40px
+    }
+
+    .eight-block__title {
+        padding-top: 40px;
+    }
+
+    .eight-block__content {
+        padding-bottom: 40px;
+    }
+
+    .ninth-block__img {
+        padding-right: 0;
+        margin-top: 80px;
+    }
+
+    .ninth-block {
+        align-items: center;
+        text-align: center;
+        padding-bottom: 40px
+    }
+
+    .ninth-block__info-text {
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 20px;
+    }
+
+    .ninth-block__info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ninth-block__info-text {
+        order: 2;
+    }
+
+    .ninth-block__info {
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .ninth-block__info-text {
+        margin-top: 40px;
+    }
+
+    .tenth-block__description-text {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .tenth-block,
+    .eleventh-block,
+    .twelfth-block,
+    .thirteenth-block {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .thirteenth-block__info img {
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .thirteenth-block__info{
+        padding-bottom: 40px;
+    }
+
+    .thirteenth-block__list-legal {
+        padding-right: 0;
+    }
+
+    .thirteenth-block li {
+        margin-bottom: 10px;
+    }
+
+    .footer__description p {
+        max-width: 100%;
+    }
+
+    .footer__description p {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
